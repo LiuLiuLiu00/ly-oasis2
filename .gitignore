@@ -1,0 +1,119 @@
+# ==========================================
+# 依赖 / Dependencies
+# ==========================================
+/node_modules
+/.pnp
+.pnp.js
+.pnp.cjs
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# ==========================================
+# 构建产物 / Build Outputs
+# ==========================================
+/.next/
+/out/
+/build
+/dist
+
+# 测试覆盖率 / Testing
+/coverage
+
+# ==========================================
+# 环境变量 / Environment Variables
+# 注意：.env.example 是模板，需要提交到仓库
+# ==========================================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+.env.test
+.env.test.local
+.env.staging
+.env.staging.local
+
+# ==========================================
+# 编辑器 & IDE / Editors & IDEs
+# 不同设备的编辑器配置各不相同，避免冲突
+# ==========================================
+.idea
+.idea/
+.vscode
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9
+.c9/
+*.launch
+.settings
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# 操作系统文件 / OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# 日志 & 调试 / Logs & Debug
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+*.log
+*.log.*
+
+# ==========================================
+# 部署平台 / Deployment Platforms
+# ==========================================
+.vercel
+.netlify
+.serverless/
+.firebase/
+
+# ==========================================
+# TypeScript & 缓存 / TS & Cache
+# ==========================================
+*.tsbuildinfo
+next-env.d.ts
+.turbo/
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# ==========================================
+# 证书 & 密钥 / Certificates & Secrets
+# ==========================================
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+secrets/
+.ssh/
+
+# ==========================================
+# 其他 / Misc
+# ==========================================
+*.bak
+*.tmp
+*.pid
+
